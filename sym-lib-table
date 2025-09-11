@@ -1,0 +1,8 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "ASTRA_Base_Station")(type "KiCad")(uri "${KIPRJMOD}/Libraries/Symbols/ASTRA_Base_Station.kicad_sym")(options "")(descr ""))
+  (lib (name "bno-055")(type "KiCad")(uri "${KIPRJMOD}/Libraries/bno055.kicad_sym")(options "")(descr ""))
+  (lib (name "neo-m9n")(type "KiCad")(uri "${KIPRJMOD}/Libraries/neo-m9n.kicad_sym")(options "")(descr ""))
+  (lib (name "d24v22fx")(type "KiCad")(uri "${KIPRJMOD}/Libraries/d24v22fx.kicad_sym")(options "")(descr ""))
+  (lib (name "adafruit_feather_esp32_v2")(type "KiCad")(uri "${KIPRJMOD}/Libraries/adafruit_feather_esp32_v2.kicad_sym")(options "")(descr ""))
+)
