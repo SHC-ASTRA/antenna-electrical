@@ -4622,7 +4622,7 @@
 		(uuid 3e46a754-48f5-4096-8852-7df1649bc157)
 	)
 	(rectangle
-		(start 31.75 16.51)
+		(start 27.94 16.51)
 		(end 154.94 101.6)
 		(stroke
 			(width 0)
@@ -6141,7 +6141,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_Mini-Fit_Jr_5566-06A_2x03_P4.20mm_Vertical"
+		(property "Footprint" "Connector_Molex:Molex_Mini-Fit_Jr_5566-04A_2x02_P4.20mm_Vertical"
 			(at 195.58 67.31 0)
 			(effects
 				(font
@@ -6654,7 +6654,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 129.032 123.19 90)
 			(effects
 				(font
@@ -6722,7 +6722,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestBed:NEO-M9N"
+		(property "Footprint" "Tracking Ant:NEO-M9N"
 			(at 197.104 24.638 0)
 			(effects
 				(font
@@ -6894,7 +6894,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Core_fp:D24V22Fx"
+		(property "Footprint" "Tracking Ant:D24V22Fx"
 			(at 247.65 22.86 0)
 			(effects
 				(font
@@ -7616,7 +7616,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Core_fp:D24V22Fx"
+		(property "Footprint" "Tracking Ant:D24V22Fx"
 			(at 246.38 50.8 0)
 			(effects
 				(font
@@ -7828,7 +7828,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Tracking Ant:LattePanda_3_Delta"
 			(at 55.88 62.23 0)
 			(effects
 				(font
@@ -8237,7 +8237,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Tracking Ant:LattePanda_3_Delta"
 			(at 121.92 62.23 0)
 			(effects
 				(font
@@ -9614,7 +9614,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Core_fp:LED 3mm"
+		(property "Footprint" "Tracking Ant:LED 3mm"
 			(at 262.89 82.55 0)
 			(effects
 				(font
@@ -10718,7 +10718,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Tracking Ant:Polulu_DRV8834"
 			(at 113.03 142.24 0)
 			(effects
 				(font
