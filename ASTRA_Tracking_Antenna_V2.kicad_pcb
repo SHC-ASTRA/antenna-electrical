@@ -39170,6 +39170,19 @@
 		(layer "Edge.Cuts")
 		(uuid "eda3d088-164e-402f-9a02-08da25dc4b6a")
 	)
+	(gr_text "Drone\nOutput"
+		(at 162.6 48.8 0)
+		(layer "F.SilkS")
+		(uuid "01b7a53d-974e-4d9e-b36c-848c58a7f434")
+		(effects
+			(font
+				(size 0.99822 0.99822)
+				(thickness 0.199644)
+				(bold yes)
+			)
+			(justify bottom)
+		)
+	)
 	(gr_text "12V\nRegulator"
 		(at 174.5 77.5 0)
 		(layer "F.SilkS")

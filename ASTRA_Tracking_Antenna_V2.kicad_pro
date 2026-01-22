@@ -490,7 +490,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "ASTRA_Tracking_Antenna_V2.step",
       "svg": "",
       "vrml": ""
     },
