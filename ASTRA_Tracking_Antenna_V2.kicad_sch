@@ -2010,25 +2010,23 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at -12.7 26.4 0)
+			(property "Reference" "U3"
+				(at 0 30.48 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
 				)
 			)
 			(property "Value" "DRV8846RGET"
-				(at -12.954 -28.194 0)
+				(at 0 27.94 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Tracking Ant:DRV8846"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2540,6 +2538,26 @@
 						(effects
 							(font
 								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(symbol "DRV8846RGET_1_1"
+				(pin power_in line
+					(at 15.24 -10.16 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -6870,6 +6888,16 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 152.4) (xy 129.54 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0416684-26ef-47a5-86f8-544f96f94dc0")
+	)
+	(wire
+		(pts
 			(xy 257.81 121.92) (xy 252.73 121.92)
 		)
 		(stroke
@@ -9410,6 +9438,72 @@
 			(project ""
 				(path "/34f22acd-658e-41b6-b350-204d4a900cb5"
 					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 138.43 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "564958df-6e61-41a7-a39e-16891b4d6121")
+		(property "Reference" "#PWR043"
+			(at 138.43 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 138.43 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 138.43 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.43 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 138.43 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5f9a263b-a584-44ec-9a89-cf17ed6b2e33")
+		)
+		(instances
+			(project ""
+				(path "/34f22acd-658e-41b6-b350-204d4a900cb5"
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -12949,6 +13043,9 @@
 		)
 		(pin "6"
 			(uuid "5241ca3a-0640-49ad-9435-2e2087cee337")
+		)
+		(pin "25"
+			(uuid "f0790184-66ac-480e-a231-44913ea9c7f4")
 		)
 		(instances
 			(project ""
